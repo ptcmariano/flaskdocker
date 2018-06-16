@@ -1,6 +1,11 @@
 web:
   build: .
   ports:
-   - "5000:5000"
+    - "5000:5000"
+  working_dir: /app
   volumes:
-   - .:/app
+    - .:/app
+  links:
+    - db
+db:
+  image: mongo:3.0
