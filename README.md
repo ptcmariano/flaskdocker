@@ -8,10 +8,10 @@ is a flask python with docker, following this tuto: http://containertutorials.co
 - [] add pytest
 
 ## run
- $ docker-compose up -d
+ $ docker compose up -d
 
 ## view log
- $ docker-compose logs
+ $ docker compose logs
 
 ### stop app
- $ docker-compose down
+ $ docker compose down
